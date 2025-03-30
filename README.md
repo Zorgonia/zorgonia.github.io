@@ -1,3 +1,3 @@
 # Personal Website/Blog
 
-See at https://www.zorgonia.github.io/
+See at https://zorgonia.github.io/
