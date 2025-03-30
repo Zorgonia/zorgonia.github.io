@@ -1,5 +1,5 @@
 export default {
-	title: "Name TBD",
+	title: "Blog of Things",
 	url: "https://zorgonia.github.io",
 	language: "en",
 	description: "There's nothing here yet",
