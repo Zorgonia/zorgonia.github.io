@@ -1,0 +1,58 @@
+
+/* https://www.a11yproject.com/posts/how-to-hide-content/ */
+.visually-hidden {
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+}
+
+.nav {
+    display: flex;
+    gap: .5em 1em;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.nav-item {
+    display: inline-block;
+}
+
+.nav-item a[href]:not(:hover) {
+	text-decoration: none;
+}
+.nav a[href][aria-current="page"] {
+	text-decoration: underline;
+}
+
+header {
+    display: flex;
+	gap: 1em;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1em;
+    background-color: #ddffce;
+}
+
+.home-link {
+	flex-grow: 1;
+	font-size: 1em; /* 16px /16 */
+	font-weight: 700;
+}
+
+
+
+html,body {
+    margin: 0 auto;
+	max-width: 40em;
+}
+
+.content-container {
+	padding: 0 1em;
+}
+
