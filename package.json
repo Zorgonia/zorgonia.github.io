@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-ghpages": "npx @11ty/eleventy --pathprefix=/zorgonia.github.io/"
+    "build-ghpages": "npx @11ty/eleventy"
   },
   "keywords": [],
   "author": "",
