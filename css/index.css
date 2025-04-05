@@ -56,3 +56,6 @@ html,body {
 	padding: 0 1em;
 }
 
+.description {
+	font-style: italic;
+}
