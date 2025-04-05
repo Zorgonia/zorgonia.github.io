@@ -40,4 +40,11 @@ export default function(eleventyConfig) {
 	eleventyConfig.addFilter("sortAlphabetically", strings =>
 		(strings || []).sort((b, a) => b.localeCompare(a))
 	);
+
+	eleventyConfig.addFilter("simpleSlug", function simpleSlug(string) {
+			string = string.toLowerCase().normalize().trim().replace(/( |　)+/g, "_").replace(/_+/g, "-");
+
+			return string;
+		}
+	);
 };
