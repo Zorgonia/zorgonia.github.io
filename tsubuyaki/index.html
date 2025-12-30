@@ -5,7 +5,7 @@
 		<title>Blog of Things</title>
 		<meta name="description" content="There&#39;s nothing here yet">
 		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Blog of Things">
-        <style>.postlist { counter-reset: start-from 4 }
+        <style>.postlist { counter-reset: start-from 5 }
 /* https://www.a11yproject.com/posts/how-to-hide-content/ */
 .visually-hidden {
 	clip: rect(0 0 0 0);
@@ -57,6 +57,12 @@ header {
   	justify-content: center;
 }
 
+.center-vertical {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
 html,body {
     margin: 0 auto;
 	max-width: 40em;
@@ -90,6 +96,10 @@ html,body {
 
 
 <ol reversed="" class="postlist">
+	<li class="postlist-item">
+		<a href="/posts/ja/paris-food/" class="postlist-link">パリで食べた全ての食品</a>
+		<time class="postlist-date" datetime="2025-12-22">22 December 2025</time>
+	</li>
 	<li class="postlist-item">
 		<a href="/posts/ja/shanghai-food/" class="postlist-link">上海で食べた全ての食品</a>
 		<time class="postlist-date" datetime="2025-11-16">16 November 2025</time>
