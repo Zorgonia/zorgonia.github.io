@@ -1,7 +1,7 @@
 ---
 title: パリで食べた全ての食品
 description: 五日間で食べた全ての食べ物
-date: 2025-12-22
+date: 2025-12-30
 tags: [ja, food]
 ---
 
