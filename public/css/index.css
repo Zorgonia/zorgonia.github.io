@@ -50,6 +50,12 @@ header {
   	justify-content: center;
 }
 
+.center-vertical {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
 html,body {
     margin: 0 auto;
 	max-width: 40em;
